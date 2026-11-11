@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+
+# Environment variables (keep secrets out of Git)
+.env
+.env.*
+!.env.example
+
+# Build output
+dist/
+build/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor settings
+.vscode/
+.idea/
+
+# Prisma local database (if you use SQLite)
+*.db
+*.sqlite
+
+# Coverage and cache
+coverage/
+.cache/
